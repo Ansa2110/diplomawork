@@ -1,12 +1,12 @@
 const items = [
     
    
-    { img:'img/jasai.png', title: 'Jas AI Hackathon', description: 'Suggest your idea in the field of video analytics and implement it using computer vision technologies.', deadline: ' April 11, 2023 ', city: 'Almaty', page:'jasai.html'},
-    { img:'img/Gamestorm.jpg', title: 'GameStorm Night', description: 'GameStorm Night is an event for those who love games and the creative process.', deadline: ' April 12, 2023', city: 'Almaty',page:'jasai.html' },
-    { img:'img/bnbchain.jpg', title: 'BlockChain Hackathon', description: 'Learn from industry experts about how to innovate and grow your startup in this interactive workshop.', deadline: ' April 13, 2023', city: 'Almaty',page:'jasai.html' },
-    { img:'img/AstanaHub.jpg', title: 'Astana Hub Battle', description: 'Learn from industry experts about how to innovate and grow your startup in this interactive workshop.', deadline: ' April 14, 2023', city: 'Almaty',page:'jasai.html' },
-    { img:'img/tiktok.jpg', title: 'Tiktok Startup Valley', description: 'Learn from industry experts about how to innovate and grow your startup in this interactive workshop.', deadline: ' April 15, 2023', city:'Astana',page:'jasai.html' },  
-    { img:'img/Scalerator.jpg', title: 'Scalerator 2023', description: 'Learn from industry experts about how to innovate and grow your startup in this interactive workshop.', deadline: ' April 16, 2023', city: 'Almaty',page:'jasai.html' },
+    { img:'img/jasai.png', title: 'Jas AI Hackathon', description: 'Suggest your idea in the field of video analytics and implement it using computer vision technologies.', deadline: ' April 11, 2023 ', city: 'Almaty', page:'jasai.html',eventType:'competition'},
+    { img:'img/Gamestorm.jpg', title: 'GameStorm Night', description: 'GameStorm Night is an event for those who love games and the creative process.', deadline: ' April 12, 2023', city: 'Almaty',page:'jasai.html',eventType:'hackathon' },
+    { img:'img/bnbchain.jpg', title: 'BlockChain Hackathon', description: 'Learn from industry experts about how to innovate and grow your startup in this interactive workshop.', deadline: ' April 13, 2023', city: 'Astana',page:'jasai.html',eventType:'competition' },
+    { img:'img/AstanaHub.jpg', title: 'Astana Hub Battle', description: 'Learn from industry experts about how to innovate and grow your startup in this interactive workshop.', deadline: ' April 14, 2023', city: 'Astana',page:'jasai.html',eventType:'hackathon' },,
+    { img:'img/tiktok.jpg', title: 'Tiktok Startup Valley', description: 'Learn from industry experts about how to innovate and grow your startup in this interactive workshop.', deadline: ' April 15, 2023', city:'Astana',page:'jasai.html',eventType:'competition' },  
+    { img:'img/Scalerator.jpg', title: 'Scalerator 2023', description: 'Learn from industry experts about how to innovate and grow your startup in this interactive workshop.', deadline: ' April 16, 2023', city: 'Almaty',page:'jasai.html',eventType:'hackathon' },
    
     // Add more items as objects
 ];
