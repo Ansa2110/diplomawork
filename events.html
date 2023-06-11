@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Startups.kz</title>
+  <!-- Add the Bootstrap CSS file -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Add your custom CSS file -->
+  <link href="css/events.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav1" >
+        <a class="navbar-brand" href="index.html">Startups.kz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="past events.html">Past events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Language
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="events.html" id="changeToEnglish">English</a>
+                <a class="dropdown-item" href="rus/eventsr.html" id="changeToRussian">Русский</a>
+                <a class="dropdown-item" href="kz/eventsr.html" id="changeToKazakh">Қазақша</a>
+                
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Upcoming Startup Events in Kazakhstan</h1>
+            <p class="lead">Explore the latest startup events and connect with like-minded individuals to grow your network and share ideas.</p>
+        </div>
+    </header>
+    
+    <!-- Events -->
+  <section class="w1">
+    <div class="filters">
+      <select id="city-filter" class="form-control">
+        <option value="all">All Cities</option>
+        <option value="Almaty">Almaty</option>
+        <option value="Astana">Astana</option>
+        <option value="Karaganda">Karaganda</option>
+        <option value="Taldykorgan">Taldykorgan</option>
+     
+
+        <!-- Add more city options here -->
+      </select>
+      <select id="event-type-filter" class="form-control">
+        <option value="all">All Event Types</option>
+        <option value="competition">Competition</option>
+        <option value="hackathon">Hackathon</option>
+        <!-- Add more event types if necessary -->
+      </select>
+    </div>
+ 
+    <section class="container">
+        <div id="data-container" class="row">
+        
+          
+        
+        
+        </div>
+   <div id="pagination1">
+    <nav aria-label="Page navigation" class="mt-4">
+      <ul class="pagination">
+          <li class="page-item" id="previous-li">
+              <a class="page-link" href="#" id="previous-btn" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="visually-hidden">Prev</span>
+              </a>
+          </li>
+          <!-- Page numbers will be appended here -->
+          <li class="page-item" id="next-li">
+              <a class="page-link" href="#" id="next-btn" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="visually-hidden">Next</span>
+              </a>
+          </li>
+      </ul>
+    </nav>
+   </div>
+  </section>
+  </section>
+    <section class="newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="sutd">Stay Up to Date</h2>
+              <p>Subscribe to our newsletter to receive the latest news and updates about upcoming startup events</p>
+            </div>
+            <div class="col-md-6">
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                </div>
+                <button type="submit" class="btn btn-primary bt1">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    <footer class="text-white py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <h4>Contact Us</h4>
+              <address>
+                123 Startup Street<br>
+                City, ST 12345<br>
+                Phone: (123) 456-7890<br>
+                Email: info@startupevents.com
+              </address>
+            </div>
+            <div class="col-md-4 text-center">
+              <h4>Useful Links</h4>
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="text-white">Home</a></li>
+                <li><a href="events.html" class="text-white">Events</a></li>
+                <li><a href="past events.html" class="text-white">Past events</a></li>
+                <li><a href="aboutus.html" class="text-white">About us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 text-center">
+              <h4>Follow Us</h4>
+              <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white mr-3"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-md-12 text-center" style="margin-top: 50px;">
+              <p>&copy; 2023 Kazakhstan Startup Events. All rights reserved.</p>
+          </div>
+          </div>
+        </div>
+      </footer>
+<!-- Your website content goes here -->
+
+<!-- Add the Bootstrap and jQuery JS files -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/events.js"></script>
+</body>
+</html>

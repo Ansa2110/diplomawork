@@ -1,0 +1,160 @@
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+  } 
+  body
+  {
+    font-family: 'Titillium Web', sans-serif !important;
+  }
+  .form-control
+  {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .page-item
+  {
+    color:#774eff;
+  }
+  .bt1
+    {
+      background-image: linear-gradient(to right, #6a11cb 0%, #774eff 100%);
+      border: none;
+    }
+  .card
+  {
+    width: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  footer .row
+  {
+    margin-left: 15px !important;
+  }
+  .w1 .row
+  {
+    margin-left: 15px !important;
+  }
+  .w1
+  {
+    background-color: #3b2783;
+    padding-top: 50px;
+  }
+  .c1
+    {
+      height: 100px !important;
+    }
+    .cc1
+    {
+      height: 15px !important;
+    }
+    
+#ab1
+{
+    color:#fff;
+}
+    /* Newsletter */
+    .newsletter p {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    
+    .newsletter form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+    }
+    
+    .newsletter input[type="email"] {
+      width: 300px;
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+      border: none;
+      margin-right: 1rem;
+    }
+    .sutd
+    {
+      color:#584F80;
+      
+    }
+    .newsletter {
+      background-color: #f5f5f5;
+      padding: 4rem 0;
+      text-align: center;
+    }
+    
+    .newsletter h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    footer {
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+      background-color: #3b2783;
+    }
+  
+   
+    .newsletter button {
+      border-radius: 0.25rem;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      margin-bottom: 65px;
+      
+      color: #fff;
+    }
+    /* Footer */
+  
+  
+  
+  @media (max-width: 768px) 
+  {
+      .header {
+          padding: 50px 0;
+        }
+      
+        
+      .newsletter h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+          }
+        
+      .newsletter p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+          }
+        
+      .newsletter input[type="email"] {
+            width: 150px;
+            margin-right: 0.5rem;
+          }
+        
+      .newsletter button {
+            font-size: 1rem;
+            padding: 0.5rem 0.75rem;
+          }
+        
+      footer .col-md-4 {
+            text-align: center;
+            margin-bottom: 30px;
+          }
+        
+      footer .col-md-4:last-child {
+            margin-bottom: 0;
+          }
+        
+      footer .container
+      {
+        
+        padding-right: 40px;
+      }
+          
+        }

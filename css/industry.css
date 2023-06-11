@@ -1,0 +1,173 @@
+body
+{
+  font-family: 'Titillium Web', sans-serif !important;
+}
+
+header
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/641a52886f25b73a0a2b69e7_How\ to\ Use\ AI\ to\ Produce\ More\ Videos\ in\ 2023.jpg');
+  background-size:cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+header h1, header p
+{
+  color:#ffffff;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.lastfaq
+{
+    margin-bottom: 50px;
+}
+.sections
+{
+    margin-bottom: 50px;
+}
+.svg
+{
+    width: 200px;
+    height: 200px;
+}
+.partners1
+{
+    display: flex;
+    justify-content: space-around;
+}
+.f1
+{
+    margin-bottom: 25px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.form-control
+{
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+ .newsletter p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+   .sutd
+  {
+    color:#584F80;
+    
+  }
+  .sch
+  {
+    font-size:0.9rem;
+  }
+  .bt1
+  {
+    background-image: linear-gradient(to right, #6a11cb 0%, #774eff 100%);
+    border: none;
+  }
+  footer .row
+  {
+    margin-left: 15px !important;
+  }
+  .newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .newsletter input[type="email"] {
+    width: 300px;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    margin-right: 1rem;
+  }
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+footer {
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #3b2783;
+  }
+.newsletter {
+    background-color: #f5f5f5;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .newsletter h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+ .newsletter button {
+    border-radius: 0.25rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-bottom: 65px;
+    
+    color: #fff;
+  }
+
+@media (max-width: 768px) 
+{
+    header {
+        width: 100%;
+        height: 100%;
+      }
+      header h1, header p
+      {
+        color:#ffffff;
+        font-size: 30px;
+        font-weight: bolder;
+      }
+      
+    .newsletter h2 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+      
+    .newsletter p {
+          font-size: 1rem;
+          margin-bottom: 1rem;
+        }
+      
+    .newsletter input[type="email"] {
+          width: 150px;
+          margin-right: 0.5rem;
+        }
+      
+    .newsletter button {
+          font-size: 1rem;
+          padding: 0.5rem 0.75rem;
+        }
+      
+    footer .col-md-4 {
+          text-align: center;
+          margin-bottom: 30px;
+        }
+      
+    footer .col-md-4:last-child {
+          margin-bottom: 0;
+        }
+    
+    .svg
+    {
+        width: 80px;
+        height: 80px;
+    }
+      
+    footer .container
+    {
+      
+      padding-right: 40px;
+    }
+        
+}

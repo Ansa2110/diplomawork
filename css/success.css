@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+  }
+  
+  p {
+    font-size: 1.125rem;
+    color: #6c757d;
+    line-height: 1.6;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    color: #fff;
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.5);
+  }
+  
