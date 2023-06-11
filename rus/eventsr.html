@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Startups.kz</title>
+  <!-- Add the Bootstrap CSS file -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Add your custom CSS file -->
+  <link href="css/eventsr.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" id="nav1" >
+    <a class="navbar-brand" href="indexr.html">Startups.kz</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="indexr.html">Главная<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="eventsr.html">Ивенты</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="past eventsr.html">Прошлые ивенты</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutusr.html">О проекте</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Язык
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../events.html" id="changeToEnglish">English</a>
+            <a class="dropdown-item" href="eventsr.html" id="changeToRussian">Русский</a>
+            <a class="dropdown-item" href="../kz/eventsr.html" id="changeToKazakh">Қазақша</a>
+            
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+      <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Предстоящие стартап-события в Казахстане</h1>
+            <p class="lead">Смотрите последние события стартапов чтобы расширять свою сеть и делиться идеями.</p>
+        </div>
+    </header>
+    
+    <!-- Events -->
+  <section class="w1">
+    <div class="filters">
+      <select id="city-filter" class="form-control">
+        <option value="all">Все города</option>
+        <option value="Aлматы">Алматы</option>
+        <option value="Aстана">Aстана</option>
+        <option value="Караганда">Караганда</option>
+        <option value="Талдыкорган">Талдыкорган</option>
+        <!-- Add more city options here -->
+      </select>
+      <select id="event-type-filter" class="form-control">
+        <option value="all">Все типы событий</option>
+        <option value="competition">Соревнование</option>
+        <option value="hackathon">Хакатон</option>
+        <!-- Add more event types if necessary -->
+      </select>
+    </div>
+    <section class="container">
+        <div id="data-container" class="row">
+        
+          
+        
+        
+        </div>
+   <div id="pagination1">
+    <nav aria-label="Page navigation" class="mt-4">
+      <ul class="pagination">
+          <li class="page-item" id="previous-li">
+              <a class="page-link" href="#" id="previous-btn" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="visually-hidden">Prev</span>
+              </a>
+          </li>
+          <!-- Page numbers will be appended here -->
+          <li class="page-item" id="next-li">
+              <a class="page-link" href="#" id="next-btn" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="visually-hidden">Next</span>
+              </a>
+          </li>
+      </ul>
+    </nav>
+   </div>
+  </section>
+  </section>
+    <section class="newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="sutd">Будьте в курсе</h2>
+              <p>Подпишитесь на нашу рассылку, чтобы получать последние новости и обновления о предстоящих стартап-мероприятиях</p>
+            </div>
+            <div class="col-md-6">
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите адрес электронной почты">
+                </div>
+                <button type="submit" class="btn btn-primary bt1">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    <footer class="text-white py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <h4>Связаться с нами</h4>
+              <address>
+                123 Startup Street<br>
+                City, ST 12345<br>
+                Phone: (123) 456-7890<br>
+                Email: info@startupevents.com
+              </address>
+            </div>
+            <div class="col-md-4 text-center">
+              <h4>Полезные ссылки</h4>
+              <ul class="list-unstyled">
+                <li><a href="indexr.html" class="text-white">Главная</a></li>
+                <li><a href="eventsr.html" class="text-white">Ивенты</a></li>
+                <li><a href="past eventsr.html" class="text-white">Прошлые ивенты</a></li>
+                <li><a href="aboutusr.html" class="text-white">О проекте</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 text-center">
+              <h4>Подписывайтесь на нас</h4>
+              <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white mr-3"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-md-12 text-center" style="margin-top: 50px;">
+              <p>&copy; 2023 Startups.kz. Все права защищены.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+<!-- Your website content goes here -->
+
+<!-- Add the Bootstrap and jQuery JS files -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/eventsr.js"></script>
+</body>
+</html>
