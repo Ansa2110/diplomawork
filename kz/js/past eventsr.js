@@ -1,12 +1,12 @@
 const items = [
     
    
-    { img:'img/jasai.png', title: 'Jas AI Hackathon', description: 'Бейне аналитика саласында өз идеяңызды ұсыныңыз және оны компьютерлік көру технологиялары арқылы жүзеге асырыңыз.', deadline: ' Сәуір 11, 2023 ', city: 'Алматы', page:'jasair.html'},
-    { img:'img/Gamestorm.jpg', title: 'GameStorm Night', description: 'GameStorm Night - ойындарды және шығармашылық процесті жақсы көретіндерге арналған оқиға.', deadline: ' Сәуір 12, 2023', city: 'Алматы',page:'jasair.html' },
-    { img:'img/bnbchain.jpg', title: 'BlockChain Hackathon', description: 'Осы интерактивті семинарда стартапыңызды қалай инновациялау және дамыту туралы сала мамандарынан үйреніңіз.', deadline: ' Сәуір 13, 2023', city: 'Алматы',page:'jasair.html' },
-    { img:'img/AstanaHub.jpg', title: 'Astana Hub Battle', description: 'Осы интерактивті семинарда стартапыңызды қалай инновациялау және дамыту туралы сала мамандарынан үйреніңіз.', deadline: ' Сәуір 14, 2023', city: 'Алматы',page:'jasair.html' },
-    { img:'img/tiktok.jpg', title: 'Tiktok Startup Valley', description: 'Осы интерактивті семинарда стартапыңызды қалай инновациялау және дамыту туралы сала мамандарынан үйреніңіз.', deadline: ' Сәуір 15, 2023', city:'Астана',page:'jasair.html' },  
-    { img:'img/Scalerator.jpg', title: 'Scalerator 2023', description: 'Осы интерактивті семинарда стартапыңызды қалай инновациялау және дамыту туралы сала мамандарынан үйреніңіз.', deadline: ' Сәуір 16, 2023', city: 'Алматы',page:'jasair.html' },
+    { img:'img/jasai.png', title: 'Jas AI Hackathon', description: 'Бейне аналитика саласында өз идеяңызды ұсыныңыз және оны компьютерлік көру технологиялары арқылы жүзеге асырыңыз.', deadline: ' Сәуір 11, 2023 ', city: 'Алматы', page:'jasair.html',eventType:'competition'},
+    { img:'img/Gamestorm.jpg', title: 'GameStorm Night', description: 'GameStorm Night - ойындарды және шығармашылық процесті жақсы көретіндерге арналған оқиға.', deadline: ' Сәуір 12, 2023', city: 'Алматы',page:'jasair.html',eventType:'hackathon' },
+    { img:'img/bnbchain.jpg', title: 'BlockChain Hackathon', description: 'Осы интерактивті семинарда стартапыңызды қалай инновациялау және дамыту туралы сала мамандарынан үйреніңіз.', deadline: ' Сәуір 13, 2023', city: 'Астана',page:'jasair.html',eventType:'competition' },
+    { img:'img/AstanaHub.jpg', title: 'Astana Hub Battle', description: 'Осы интерактивті семинарда стартапыңызды қалай инновациялау және дамыту туралы сала мамандарынан үйреніңіз.', deadline: ' Сәуір 14, 2023', city: 'Астана',page:'jasair.html',eventType:'hackathon' },
+    { img:'img/tiktok.jpg', title: 'Tiktok Startup Valley', description: 'Осы интерактивті семинарда стартапыңызды қалай инновациялау және дамыту туралы сала мамандарынан үйреніңіз.', deadline: ' Сәуір 15, 2023', city:'Астана',page:'jasair.html',eventType:'competition' },  
+    { img:'img/Scalerator.jpg', title: 'Scalerator 2023', description: 'Осы интерактивті семинарда стартапыңызды қалай инновациялау және дамыту туралы сала мамандарынан үйреніңіз.', deadline: ' Сәуір 16, 2023', city: 'Алматы',page:'jasair.html',eventType:'hackathon' },
     
     // Add more items as objects
 ];
