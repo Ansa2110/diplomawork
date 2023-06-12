@@ -2,11 +2,11 @@ const items = [
     
    
     { img:'img/jasai.png', title: 'Jas AI Hackathon', description: 'Предложите свою идею в области видеоаналитики и реализуйте ее с помощью технологий компьютерного зрения.', deadline: ' Апрель 11, 2023 ', city: 'Алматы', page:'jasair.html',eventType:'competition'},
-    { img:'img/Gamestorm.jpg', title: 'GameStorm Night', description: 'GameStorm Night — это событие для тех, кто любит игры и творческий процесс.', deadline: ' Апрель 12, 2023', city: 'Алматы', page:'jasair.html',eventType:'hackathon' },
-    { img:'img/bnbchain.jpg', title: 'BlockChain Hackathon', description: 'Узнайте от отраслевых экспертов о том, как внедрять инновации и развивать свой стартап на этом интерактивном семинаре.', deadline: ' Апрель 13, 2023', city: 'Астана',page:'jasair.html',eventType:'competition' },
-    { img:'img/AstanaHub.jpg', title: 'Astana Hub Battle', description: 'Узнайте от отраслевых экспертов о том, как внедрять инновации и развивать свой стартап на этом интерактивном семинаре.', deadline: ' Апрель 14, 2023', city: 'Астана',page:'jasair.html',eventType:'hackathon' },
-    { img:'img/tiktok.jpg', title: 'Tiktok Startup Valley', description: 'Узнайте от отраслевых экспертов о том, как внедрять инновации и развивать свой стартап на этом интерактивном семинаре.', deadline: ' Апрель 15, 2023', city:'Астана',page:'jasair.html',eventType:'competition' },  
-    { img:'img/Scalerator.jpg', title: 'Scalerator 2023', description: 'Узнайте от отраслевых экспертов о том, как внедрять инновации и развивать свой стартап на этом интерактивном семинаре.', deadline: ' Апрель 16, 2023', city: 'Алматы',page:'jasair.html',eventType:'hackathon' },
+    { img:'img/Gamestorm.jpg', title: 'GameStorm Night', description: 'GameStorm Night — это событие для тех, кто любит игры и творческий процесс.', deadline: ' Апрель 12, 2023', city: 'Астана', page:'gamestormr.html',eventType:'competition' },
+    { img:'img/bnbchain.jpg', title: 'BlockChain Hackathon', description: 'Узнайте от отраслевых экспертов о том, как внедрять инновации и развивать свой стартап на этом интерактивном семинаре.', deadline: ' Апрель 13, 2023', city: 'Астана',page:'blockchainr.html',eventType:'hackathon' },
+    { img:'img/AstanaHub.jpg', title: 'Astana Hub Battle', description: 'Узнайте от отраслевых экспертов о том, как внедрять инновации и развивать свой стартап на этом интерактивном семинаре.', deadline: ' Апрель 14, 2023', city: 'Астана',page:'astanahubr.html',eventType:'hackathon' },
+    { img:'img/tiktok.jpg', title: 'Tiktok Startup Valley', description: 'Узнайте от отраслевых экспертов о том, как внедрять инновации и развивать свой стартап на этом интерактивном семинаре.', deadline: ' Апрель 15, 2023', city:'Астана',page:'tiktokr.html',eventType:'competition' },  
+    { img:'img/Scalerator.jpg', title: 'Scalerator 2023', description: 'Узнайте от отраслевых экспертов о том, как внедрять инновации и развивать свой стартап на этом интерактивном семинаре.', deadline: ' Апрель 16, 2023', city: 'Алматы',page:'scaler.html',eventType:'hackathon' },
     
     // Add more items as objects
 ];
